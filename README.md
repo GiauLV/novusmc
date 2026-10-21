@@ -5,6 +5,10 @@ Hệ thống tài liệu kỹ thuật, mã nguồn plugin tùy chỉnh và báo 
 
 ## 📚 Danh mục Tài liệu Kỹ thuật (Wiki & Docs)
 
+- 📜 **[Wiki Máy Chủ NovusMC & Hệ Thống Kinh Tế 3 Cấp (Kim Tệ, Hồng Ngọc, Linh Ngọc)](docs/WIKI_NOVUSMC_SERVER.md)** ⭐
+  - Tổng quan lối chơi Survival MMORPG (MMOCore, MMOItems, MythicMobs, Tháp, Ngư nghiệp & Nông trại).
+  - Chi tiết 3 loại tiền tệ: Nguồn kiếm (Inflow), Mục đích sử dụng (Sinks - Dùng để làm gì).
+  - Sơ đồ tuần hoàn kinh tế (Mermaid Circular Economy Flow) & Bảng tra cứu lệnh giao dịch (`/money`, `/bal`, `/pay`, `/ee`, `/lixi`).
 - 🧧 **[Wiki Plugin NovusLixi (Hệ thống Lì Xì Đa Tiền Tệ)](docs/WIKI_NOVUS_LIXI.md)**
   - Cơ chế tính toán quỹ, phân chia số suất và hoàn tiền tự động khi hết hạn.
   - Bảng tra cứu toàn bộ Lệnh & Quyền hạn (`/lixi`, `/laylixi`, `/lixiadmin`).
