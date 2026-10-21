@@ -1,0 +1,21 @@
+# ==============================================================================
+# NOVUS MC - BOSS TOP DAMAGE DISCORD WEBHOOK
+# High-Performance Async Architecture
+# ==============================================================================
+
+prefix: "&8[&cNovusBossTop&8] &7"
+
+# Đường dẫn Discord Webhook để gửi báo cáo chiến tích
+webhook-url: "https://discord.com/api/webhooks/1284768393529327668/xX1v-9XkM9y1wX5_L8k8p4k5"
+
+# Danh sách tên boss MythicMobs cần theo dõi sát thương
+monitored-bosses:
+  - "Direfang"
+  - "warlord_kragan_the_bloodfury"
+  - "bowmaster_vael_the_ranger"
+
+# Số lượng người chơi hiển thị trên bảng xếp hạng Discord (mặc định: Top 10)
+top-limit: 10
+
+# Màu sắc Embed Discord (HEX -> Integer: 15158332 là màu Đỏ Chiến Binh #E74C3C)
+embed-color: 15158332

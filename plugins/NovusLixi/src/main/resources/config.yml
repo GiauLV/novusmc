@@ -1,0 +1,44 @@
+# ==============================================================================
+# NOVUS MC - HỆ THỐNG LÌ XÌ SERVER (NovusLixi)
+# High-Performance Async Architecture
+# ==============================================================================
+
+prefix: "&8[&6Lì Xì&8] &7"
+
+# Chi phí tạo lì xì (Kim Tệ)
+create-fee: 50
+
+# Phí duy trì theo thời gian
+duration-fees:
+  12h: 0
+  24h: 10
+  48h: 19
+
+# Cấu hình hiển thị BossBar khi phát lì xì (giây)
+bossbar:
+  enabled: true
+  duration-seconds: 12
+  color: RED
+  style: SOLID
+  title: "&6&l[LÌ XÌ SERVER] &f{player} &eđang phát &c{amount} {currency}&e! Nhập &b/laylixi &eđể nhận ngay!"
+
+# Chu kỳ tự động quét lì xì hết hạn và hoàn tiền phần dư (giây)
+expiry-scan-seconds: 30
+
+# Danh mục tiền tệ hỗ trợ (ExcellentEconomy)
+currencies:
+  kimte:
+    display-name: "&6Kim Tệ"
+    symbol: "KT"
+    command-add: "excellenteconomy give {player} kimte {amount}"
+    command-take: "excellenteconomy take {player} kimte {amount}"
+  linhngoc:
+    display-name: "&bLinh Ngọc"
+    symbol: "LN"
+    command-add: "excellenteconomy give {player} linhngoc {amount}"
+    command-take: "excellenteconomy take {player} linhngoc {amount}"
+  hongngoc:
+    display-name: "&cHồng Ngọc"
+    symbol: "HN"
+    command-add: "excellenteconomy give {player} hongngoc {amount}"
+    command-take: "excellenteconomy take {player} hongngoc {amount}"

@@ -1,0 +1,19 @@
+name: NovusLixi
+version: '1.0.0'
+main: vn.novusmc.lixi.NovusLixi
+api-version: '1.21'
+author: NovusMC
+description: Hệ thống Lì Xì hiệu năng cao cho NovusMC (thay thế Skript lixi)
+
+commands:
+  lixi:
+    description: Mở menu tạo lì xì server
+    aliases: [phatlixi]
+    permission: novusmc.lixi.use
+  laylixi:
+    description: Xem và nhận các bao lì xì đang phát
+    aliases: [nhanlixi]
+    permission: novusmc.lixi.use
+  lixiadmin:
+    description: Quản trị hệ thống lì xì
+    permission: novusmc.lixi.admin

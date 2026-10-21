@@ -1,0 +1,12 @@
+name: NovusBossTop
+version: '1.0.0'
+main: vn.novusmc.bosstop.NovusBossTop
+api-version: '1.21'
+author: NovusMC
+description: Hệ thống thống kê Top sát thương Boss MythicMobs gửi Discord Webhook Async
+depend: [MythicMobs]
+
+commands:
+  bosstop:
+    description: Quản trị và kiểm tra hệ thống Boss Top Damage
+    permission: novusmc.bosstop.admin
